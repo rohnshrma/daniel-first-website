@@ -1,0 +1,46 @@
+/* universal selector , id selector, class selector, tagname selector , attribute selector  */
+
+body{
+    border:10px dashed #333;
+    padding:4rem;
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+}
+
+/* universal */
+/* *{
+    color:red;
+    background-color: blue;
+} */
+
+/* id selector => # */
+/* #main{
+    background-color: orangered;
+}
+
+
+
+#about{
+    color:olive;
+} */
+
+
+
+/* class selector => "." */
+
+/* a same class can be shared by multiple elements  */
+/* one html element can even have more than 1 class */
+
+/* .level-2{
+    color:#333;
+    font-family: cursive;
+    border:10px dotted blue; 
+}
+
+.l-2{
+    background-color: aliceblue;
+} */
