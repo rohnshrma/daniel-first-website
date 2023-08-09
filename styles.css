@@ -1,14 +1,28 @@
 /* universal selector , id selector, class selector, tagname selector , attribute selector  */
 
-body{
-    border:10px dashed #333;
-    padding:4rem;
+*{
+    margin: 0;
 }
 
-p{
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color:grey;
+/* body {
+  border: 10px dashed #333;
+  padding: 4rem;
+} */
+
+
+.level-2{
+    color:orangered;
+    font-size: 48px;
+    font-weight: 900;
+    font-style: italic;
+   text-shadow: 2px 2px 2px #000;
+}
+
+
+p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
 }
 
 /* universal */
@@ -28,8 +42,6 @@ p{
     color:olive;
 } */
 
-
-
 /* class selector => "." */
 
 /* a same class can be shared by multiple elements  */
@@ -44,3 +56,141 @@ p{
 .l-2{
     background-color: aliceblue;
 } */
+
+.title {
+  /* size */
+  font-size: 100px;
+
+  /* text color */
+  /* color: dodgerblue; */
+  color: teal;
+
+  /* underline */
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration: line-through; */
+
+  /* text shadow */
+
+  /* x-axis | y-axis | blur | color */
+
+  /* text-shadow: -4px -4px 4px #333 ; */
+
+  /* change boldness of text */
+  /* font-weight: 900; */
+
+  /* making the text italic */
+
+  /* font-style: italic; */
+}
+
+/* styling the main box */
+#main {
+    padding: 100px ;
+
+    text-align: center;
+
+
+
+  /* background color */
+  /* background-color: thistle; */
+
+  /* background: linear-gradient(40deg , thistle , dodgerblue); */
+
+  /* background image */
+
+  /* background-image: url("https://images.unsplash.com/photo-1531558506007-fe311a2f4729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2t5c2NyYXBlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"); */
+
+  background: url("https://images.unsplash.com/photo-1531558506007-fe311a2f4729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2t5c2NyYXBlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+
+  /* stop repeatation of the image*/
+  background-repeat: no-repeat;
+
+  /* cover the box with an image */
+  background-size: cover;
+
+  background-position: top;
+  /* padding */
+
+  /* all four sides */
+  /* padding: 10px;  */
+
+  /* t-b / l-r */
+  /* padding: 10px 20px; */
+
+  /* t / l-r  / b */
+  /* padding: 10px 20px 30px; */
+
+  /* t / r / b / l  */
+  /* padding: 10px 40px 50px 20px; */
+
+  /* padding-bottom: 100px;
+    padding-top: 130px;
+    padding-left: 50px;
+    padding-right: 70px; */
+
+  /* padding:  0 0 100px 0; */
+
+
+
+
+
+}
+
+
+
+#main img{
+    border-radius: 50%;
+
+}
+
+.box{
+    height:100px;
+    border: 2px solid black;
+}
+
+.b1{
+    background-color: tomato;
+}
+.b2{
+    background-color: royalblue ;
+    /* margin: 40px; */
+    /* margin: 20px 40px; */
+    /* margin: 20px 40px 60px; */
+    /* margin: 20px 40px 60px 90px; */
+
+
+    /* margin-top: 20px;
+    margin-bottom: 120px;
+    margin-right: 20px;
+    margin-left:60px; */
+
+
+    /* border : 10px inset tomato; */
+/* 
+
+    border-width: 10px;
+    border-style: double;
+    border-color: black; */
+
+/* 
+    border-top: 10px dashed #000;
+    border-right: 12px double #000;
+    border-bottom: 30px groove #000;
+    border-left: 5px dotted #000; */
+
+
+}
+
+
+
+#para{
+
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: center; */
+
+    text-align: justify;
+    line-height:1.5;
+    letter-spacing: 2px;
+}
