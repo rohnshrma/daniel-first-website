@@ -4,7 +4,24 @@
 
  h1,h2,h3,h4,h5,h6{
     font-family: sans-serif;
+    /* text shadow : x-axis , y-axis , blur radius , color*/
+    text-shadow:0 0 4px #fff;
+}
+
+.container{
+    padding: 30px 50px;
+}
+
+
+ .level-2{
+    text-align: center;
+    font-size: 40px;
+    color:#333;
+    font-family: monospace;
+    text-decoration: underline;
+    text-shadow:0 0 4px #ccc;
  }
+
 
 main{
     padding:40px;
